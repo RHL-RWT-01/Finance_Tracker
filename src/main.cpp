@@ -3,34 +3,37 @@
 //
 
 #include <iostream>
-#include <string>
-#include "DataStructures.h"
+#include "UserProfile.h"
+
+using namespace std;
 
 int main() {
-    UserProfile user("Rahul", 5000, 1000);
+    // Create a UserProfile object, passing "expenses.csv" as the CSV filename
+    UserProfile user("Rahul", 5000.0, 1000.0, "expenses.csv");
 
-    std::string category;
-    double amount;
-    std::string date;
-    char moreExpenses;
-
+    char choice;
     do {
-        std::cout << "Enter expense category: ";
-        std::cin >> category;
-        std::cout << "Enter amount: ";
-        std::cin >> amount;
-        std::cout << "Enter date (YYYY-MM-DD): ";
-        std::cin >> date;
+        string category, date;
+        double amount;
 
-        Expense exp(category, amount, date);
-        user.addExpense(exp);
+        // Prompt user for expense details
+        cout << "Enter expense category: ";
+        cin >> category;
+        cout << "Enter amount: ";
+        cin >> amount;
+        cout << "Enter date (YYYY-MM-DD): ";
+        cin >> date;
 
-        std::cout << "Add another expense? (y/n): ";
-        std::cin >> moreExpenses;
 
-    } while (moreExpenses == 'y' || moreExpenses == 'Y');
+        Expense expense(category, amount, date);
+        user.addExpense(expense);
 
-    std::cout << "Total Expenses: " << user.calculateTotalExpenses() << std::endl;
+
+        cout << "Add another expense? (y/n): ";
+        cin >> choice;
+    } while (choice == 'y');
+
+        cout << "Total Expenses: " << user.calculateTotalExpenses() << endl;
 
     return 0;
 }

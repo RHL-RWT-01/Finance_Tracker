@@ -1,0 +1,3 @@
+C:/Users/ftt/CLionProjects/Finance_Tracker/cmake-build-debug/CMakeFiles/Finance_Tracker.dir
+C:/Users/ftt/CLionProjects/Finance_Tracker/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ftt/CLionProjects/Finance_Tracker/cmake-build-debug/CMakeFiles/rebuild_cache.dir

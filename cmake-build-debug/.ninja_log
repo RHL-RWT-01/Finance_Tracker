@@ -1,0 +1,12 @@
+# ninja log v6
+51	1359	7462074492194283	CMakeFiles/Finance_Tracker.dir/src/main.cpp.obj	70ba66651553ae10
+145	1588	7463110133892947	CMakeFiles/Finance_Tracker.dir/src/UserProfile.cpp.obj	e7ea6ad71aa40fa7
+1360	1731	7462074505278574	Finance_Tracker.exe	d62a4fb12caf32da
+25	1128	7462072520687890	CMakeFiles/Finance_Tracker.dir/src/DataStructures.cpp.obj	e4779c695a2f4f2
+180	1735	7463110134246979	CMakeFiles/Finance_Tracker.dir/src/CSVHandler.cpp.obj	e920b54329d9db2c
+30	759	7463117298303963	build.ninja	a1164e7ac912aa3f
+62	839	7463117582026651	CMakeFiles/Finance_Tracker.dir/src/DataStructures.cpp.obj	e4779c695a2f4f2
+33	1083	7463117581744223	CMakeFiles/Finance_Tracker.dir/src/UserProfile.cpp.obj	e7ea6ad71aa40fa7
+46	1125	7463117581881698	CMakeFiles/Finance_Tracker.dir/src/main.cpp.obj	70ba66651553ae10
+54	1434	7463117581948411	CMakeFiles/Finance_Tracker.dir/src/CSVHandler.cpp.obj	e920b54329d9db2c
+1434	2589	7463117595751456	Finance_Tracker.exe	46774ac04c9ac4a0
